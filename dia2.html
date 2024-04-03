@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Days of code | dia 2</title>
+</head>
+<body>
+    <script>
+        alert('olá! bem vindo ao segundo dia do 7 Days of Code!')
+
+        let name = prompt('Qual o seu nome?')
+
+        let age = prompt(`olá ${name}, quantos anos você tem?`)
+
+        let codeLanguage = prompt(' E qual linguagem de programação você está estudando?')
+
+        alert(`Muito prazer ${name}, então você tem ${age} anos e está estudando ${codeLanguage}, muito legal!`)
+
+        let like = prompt(`Você gosta de estudar ${codeLanguage}? Responda com o número 1 para SIM ou 2 para NÃO.`)
+
+        if (like == 1) {
+            alert('Muito bom! Continue estudando e você terá muito sucesso.')
+        } else {
+            let othersLanguages = prompt('Ahh que pena... Já tentou aprender outras linguagens? Responda com o número 1 para SIM ou 2 para NÃO.')
+
+                if (othersLanguages == 1) {
+                    alert('Isso mesmo, tente novos desafios! Não desista de aprender.')
+                } else{
+                    alert(`Não desista ${name}! Entre no site da Alura, descubra outras linguagens de programação e continue estudando, você vai conseguir!`)
+                }
+        }
+    </script>
+</body>
+</html>

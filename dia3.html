@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Days of code | dia 3</title>
+</head>
+<body>
+    <script>
+        alert('Olá! seja bem vindo ao terceiro dia de "7 Days of code" de JavaScript.')
+
+        let name = prompt('Por favor, digite abaixo o seu nome:')
+
+        let codeArea = prompt(`${name}, para qual área da programação você quer seguir? 1-Front-End ou 2-Back-End? Digite somente o numero da sua escolha.`)
+
+            if (codeArea == 1) {
+                let languageFront = prompt(`Boa escolha ${name}! Como Front-end você gostaria de aprender: 1-React, ou 2-Vue? Digite somente o numero da sua escolha.`)
+                    if (languageFront == 1) {
+                        alert('Definição de "React" pelo site W3Schools: "React é uma biblioteca JavaScript para construção de interfaces de usuário e é usado para construir aplicativos de página única. O React nos permite criar componentes de UI reutilizáveis." \Aprender React será uma ótima adição ao seu cúrriculo!')
+                    } else {
+                        alert('Definição de "Vue" pelo site treinaweb.com: "É um framework JavaScript open source para a criação de aplicações web. Atualmente o Vue.js está entre os frameworks Javascript para criação de interfaces mais populares do mundo, devido à sua baixa curva de aprendizado, sua versatilidade e por oferecer uma solução bem completa – contando até mesmo com uma CLI, o Vue CLI." \Aprender Vue será uma ótima adição ao seu cúrriculo!')
+                    }
+            } else {
+                let languageBack = prompt(`Boa escolha ${name}! Como Back-End você gostaria de aprender: 1-C#, ou 2-Java? Digite somente o numero da sua escolha.`)
+                    if (languageBack == 1) {
+                        alert('Definição de "C#" pelo site W3Schools: "C# (C-Sharp) é uma linguagem de programação desenvolvida pela Microsoft que roda no .NET Framework. C# é usado para desenvolver aplicativos web, aplicativos de desktop, aplicativos móveis, jogos e muito mais." \Aprender C# será uma ótima adição ao seu cúrriculo!')
+                    } else {
+                        alert('Definição de "Java" pelo site W3Schools: "Java é uma linguagem de programação popular. Java é usado para desenvolver aplicativos móveis, aplicativos web, aplicativos de desktop, jogos e muito mais." \Aprender Java será uma ótima adição ao seu cúrriculo!"')
+                    }
+            }
+        
+        let otherLanguage = prompt('Tem mais alguma tecnologia que você gostaria de aprender?')
+
+    </script>
+</body>
+</html>
